@@ -1,2 +1,2 @@
-# juliuskimaru-github.io
+# julius-kimaru.github.io
 julius kimaru- student portfolio
