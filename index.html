@@ -280,39 +280,42 @@
 
 
     <!-- CONTACT -->
-    <section id="contact" class="section light-section">
+   <s          class="btn primary-btn">
+                     Send Me an Email
+                </a>
+ection id="contact" class="section light-section">
         <div class="container">
 
             <p class="eyebrow">LET'S CONNECT</p>
             <h2 class="section-title">Contact Me</h2>
 
-            <div class="contact-card">
+    
+<div class="contact-card">
 
-                <p><strong>Name:</strong> Julius Kimaru</p>
+  <p><strong>Name:</strong> Julius Kimaru</p>
+  <p><strong>University:</strong> Multimedia University of Kenya</p>
+  <p><strong>Course:</strong> Electrical and Telecommunications Engineering</p>
 
-                <p>
-                    <strong>Email:</strong>
-                    <a href="mailto:kimarujulius86@gmail.com">
-                        kimarujulius86@gmail.com
-                    </a>
-                </p>
+  <form action="https://formspree.io/f/xyewdgjw" method="POST" class="contact-form">
 
-                <p>
-                    <strong>University:</strong>
-                    Multimedia University of Kenya
-                </p>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
 
-                <p>
-                    <strong>Course:</strong>
-                    Electrical and Telecommunications Engineering
-                </p>
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" required>
 
-                <a href="mailto:kimarujulius86@gmail.com"
-                    class="btn primary-btn">
-                    Send Me an Email
-                </a>
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" required>
 
-            </div>
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+  </form>
+
+</div>
+
 
         </div>
     </section>
